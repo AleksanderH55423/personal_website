@@ -1,8 +1,8 @@
 {
   "site": {
-    "title": "Hydrogen Nextjs",
+    "title": "Aleksander website",
     "base_url": "/",
-    "favicon": "/images/developer.png"
+    "favicon": "/images/developer.jpg"
   },
 
   "settings": {
@@ -12,10 +12,10 @@
   },
 
   "profile": {
-    "name": "Michael Caine",
-    "image": "/images/developer.png",
-    "designation": "Front-end developer",
-    "bio": "A Full Stack Front-end Developer based in New York. Meticulous web developer with over 2 years of front end experience and passion for responsive and mobile-first website design."
+    "name": "Aleksander Hovland",
+    "image": "/images/developer.jpg",
+    "designation": "Computer Scientist",
+    "bio": "Computer Science student at Georgia Tech with strong software engineering internship experience. Proven ability to build production-grade pipelines in Node.js and TypeScript, develop AI-powered document intelligence tools using OpenAI and Azure, and create robust testing frameworks in Python. Strong foundation in algorithms, data structures, and cross-functional collaboration. Passionate about solving complex problems and delivering scalable, realworld solutions. "
   },
 
   "params": {

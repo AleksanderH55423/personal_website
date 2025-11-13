@@ -8,13 +8,12 @@ draft: false
 
 ## Get in touch
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+I am usually by my phone or computer (except for holidays) and will respond in a reasonable time.
 
 ### Location
 
-4140 Parker Rd. Allentown,
-New Mexico 31134
+Atlanta, GA
 
 ### Phone
 
-+88544767456
++1 (936) 777 1228
