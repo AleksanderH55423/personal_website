@@ -35,6 +35,51 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* skills */}
+      <div className="section pt-4">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-10 text-center">Skills</h2>
+
+          <div className="row justify-center text-center">
+
+            {/* Column 1 */}
+            <div className="col-12 sm:col-4 mb-6">
+              <h3 className="text-2xl font-semibold mb-4">Languages</h3>
+              <ul className="text-lg leading-relaxed">
+                <li>Python</li>
+                <li>Java</li>
+                <li>TypeScript / JavaScript</li>
+                <li>C / C++</li>
+              </ul>
+            </div>
+
+            {/* Column 2 */}
+            <div className="col-12 sm:col-4 mb-6">
+              <h3 className="text-2xl font-semibold mb-4">Technologies</h3>
+              <ul className="text-lg leading-relaxed">
+                <li>React / Next.js</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+
+            {/* Column 3 */}
+            <div className="col-12 sm:col-4 mb-6">
+              <h3 className="text-2xl font-semibold mb-4">AI & ML</h3>
+              <ul className="text-lg leading-relaxed">
+                <li>Transformer Models</li>
+                <li>Scikit-learn</li>
+                <li>OpenAI API</li>
+                <li>Data Pipelines</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </Base>
   );
 };
