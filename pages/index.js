@@ -2,18 +2,12 @@ import config from "@config/config.json";
 import social from "@config/social.json";
 import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
-import Pagination from "@layouts/components/Pagination";
-import Post from "@layouts/components/Post";
 import Social from "@layouts/components/Social";
-import { getSinglePage } from "@lib/contentParser";
-import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
-const { blog_folder } = config.settings;
 
 const Home = ({ posts }) => {
   const { pagination } = config.settings;
   const { name, image, designation, bio } = config.profile;
-  const sortPostByDate = sortByDate(posts);
 
   return (
     <Base>
@@ -42,43 +36,42 @@ const Home = ({ posts }) => {
           </div>
         </div>
       </div>
+{/* projects */}
+<div className="section pt-4">
+  <div className="container">
+    <div className="row">
+      <div className="mx-auto lg:col-10">
+        <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
 
-      {/* posts */}
-      <div className="pt-4">
-        <div className="container">
-          <div className="row">
-            <div className="mx-auto lg:col-10">
-              <div className="row">
-                {sortPostByDate.slice(0, pagination).map((post, i) => (
-                  <Post
-                    className="col-12 mb-6 sm:col-6"
-                    key={"key-" + i}
-                    post={post}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="mt-12">
-            <Pagination
-              totalPages={Math.ceil(posts.length / pagination)}
-              currentPage={1}
-            />
-          </div>
+        <div className="row">
+          
+      {/* Project 1 — Spotify Wrapped App */}
+      <div className="col-12 mb-6 sm:col-6">
+        <div className="border p-6 rounded-lg shadow">
+          <h3 className="text-2xl font-semibold mb-2">Spotify Wrapped Mobile App</h3>
+          <p className="mb-4">
+            A full-featured Android application that generates Spotify-style yearly listening 
+            analytics using Firebase backend services, real-time sync, and interactive visualizations.
+            Built in a 4–person team for CS 2340.
+          </p>
+          <a
+            href="https://sites.google.com/view/2340project2lucas4"
+            target="_blank"
+            className="text-primary underline"
+          >
+            View Project →
+          </a>
         </div>
       </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     </Base>
   );
 };
 
 export default Home;
-
-// for homepage data
-export const getStaticProps = async () => {
-  const posts = getSinglePage(`content/${blog_folder}`);
-  return {
-    props: {
-      posts: posts,
-    },
-  };
-};

@@ -1,17 +1,9 @@
 {
-  "main": [
-    {
-      "name": "All Posts",
-      "url": "/"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    { "name": "Resume", "url": "/files/resume Hovland.pdf" }
+  "main": 
+  [
+  { "name": "Home", "url": "/" },
+  { "name": "Projects", "url": "/projects" },
+  { "name": "Resume", "url": "/files/resume.pdf" },
+  { "name": "Contact", "url": "/contact" }
   ]
 }
