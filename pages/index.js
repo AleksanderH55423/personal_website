@@ -57,6 +57,7 @@ const Home = ({ posts }) => {
           <a
             href="https://sites.google.com/view/2340project2lucas4"
             target="_blank"
+            rel="noreferrer"
             className="text-primary underline"
           >
             View Project →
