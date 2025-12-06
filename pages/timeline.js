@@ -12,12 +12,31 @@ export default function WorkHistory() {
       ],
     },
     {
-      title: "Software Engineer — Marine Technologies",
+      title: "Software Engineer Intern — Marine Technologies",
       date: "January 2023 – May 2023",
       bullets: [
         "Developed automation scripts for embedded testing systems.",
           "Created diagnostics tools to detect hardware faults during manufacturing.",
           "Integrated Python-based testing with real hardware boards.",
+      ],
+    },
+     {
+      title: "Team Member — Dunkin'",
+      date: "June 2022 – August 2022",
+      bullets: [
+      "Opened and closed store during morning shifts, ensuring equipment readiness and cleanliness.",
+        "Demonstrated strong reliability through consistent attendance and shift coverage.",
+        "Maintained inventory levels and restocked supplies to support continuous operations.",
+        "Proactively identified and resolved issues related to workflow and customer satisfaction.",
+      ],
+    },
+     {
+      title: "Software Engineer Intern — Frontier International",
+      date: "June 2021 – July 2021",
+      bullets: [
+        "Analyzed and visualized complex datasets with Python libraries (NumPy, pandas) and matplotlib, providing insights that informed key project decisions.",
+          "Developed interactive data dashboards with React and Node.js, allowing users to easily explore and interpret data trends and patterns in real-time",
+          "Collaborated with cross-functional teams to integrate data visualization tools into existing applications, enhancing user experience and data accessibility.",
       ],
     },
   ];

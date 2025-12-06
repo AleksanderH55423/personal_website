@@ -3,7 +3,7 @@
   [
   { "name": "Home", "url": "/" },
   { "name": "Projects", "url": "/projects" },
-  { "name": "Work History", "url": "/work" },
+  { "name": "Timeline", "url": "/timeline" },
   { "name": "Resume", "url": "/resume" },
   { "name": "Contact", "url": "/contact" }
   ]
